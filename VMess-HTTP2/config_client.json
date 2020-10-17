@@ -17,7 +17,7 @@
     "inbounds": [
         {
             "listen": "127.0.0.1",
-            "port": "1080",
+            "port": "10080",
             "protocol": "socks",
             "settings": {
                 "auth": "noauth",
@@ -27,7 +27,7 @@
         },
         {
             "listen": "127.0.0.1",
-            "port": "1081",
+            "port": "10081",
             "protocol": "http"
         }
     ],
@@ -37,12 +37,12 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "",
-                        "port": 1234,
+                        "address": "v2awzc.zjfe.xyz",
+                        "port": 443,
                         "user": [
                             {
-                                "id": "",
-                                "alterId": 4,
+                                "id": "8c4c92ef-ff93-34ab-a11a-3a40aafeded9",
+                                "alterId": 2,
                                 "security": "none"
                             }
                         ]
